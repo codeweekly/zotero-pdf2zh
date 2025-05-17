@@ -78,7 +78,9 @@ jobs:
                   # List of attestation parameters (e.g., type=sbom,generator=image)
                   # attests: # optional
                   # List of build-time variables
-                  build-args: ZOTERO_PDF2ZH_FROM_IMAGE=byaidu/pdf2zh:1.9.6, ZOTERO_PDF2ZH_SERVER_FILE_DOWNLOAD_URL=https://raw.githubusercontent.com/guaguastandup/zotero-pdf2zh/refs/heads/main/server.py # optional
+                  build-args: |
+                    ZOTERO_PDF2ZH_FROM_IMAGE=byaidu/pdf2zh:1.9.6
+                    ZOTERO_PDF2ZH_SERVER_FILE_DOWNLOAD_URL=https://raw.githubusercontent.com/guaguastandup/zotero-pdf2zh/refs/heads/main/server.py # optional
                   # List of additional build contexts (e.g., name=path)
                   # build-contexts: # optional
                   # Builder instance
