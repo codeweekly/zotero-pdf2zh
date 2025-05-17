@@ -137,4 +137,4 @@ jobs:
                   # ulimit: # optional
                   # GitHub Token used to authenticate against a repository for Git context
                   # github-token: # optional, default is ${{ github.token }}
-                  github-token: ${{ secrets.TOKEN }}
+                  github-token: ${{ secrets.GitHub_TOKEN }}
